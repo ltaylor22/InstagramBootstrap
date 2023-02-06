@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/e7b5cc8631.js" crossorigin="anonymous"></script>
+    <title>Instagram Bootstrap</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <i class="fa-brands fa-instagram mr-1"></i>
+            <span>Instagram</span>
+          </a>
+            <div class="justify-content-end">
+              <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a new post</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary  dropdown-toggle btn-sm" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-gear"></i></button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><button class="dropdown-item type="button">Profile</button></li>
+                      <li><button class="dropdown-item" type="button">Accesibility</button></li>
+                      <li><button class="dropdown-item" type="button">Privacy and Data</button></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                    </ul>
+                  </div>                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row pl-2">
+                            <h6>Caption:</h6>
+                          </div>
+                          <div class="row pl-2">
+                            <textarea class="form-control" rows="2" id="comment">Add the caption of your post here</textarea>
+                            </div>
+                            <div class="class">
+                              <div class="col-md-1"><i class="fa-solid fa-camera"></i></div>
+                              <div class="col-md-1"><i class="fa-sha rp fa-solid fa-location-dot"></i></div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-success">Publish</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></i></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                      <div class="row d-flex justify-content-center">
+                        <div class="col-4 pr-0"><img src="https://picsum.photos/id/179/410/400"/></div>
+                        <div class="col-4"><img src="https://picsum.photos/id/93/410/400"/></div>
+                        <div class="col-4"><img src="https://picsum.photos/id/191/410/400"/></div>
+                      </div>
+                      <div class="row d-flex justify-content-center pt-4">
+                        <div class="col-4"><img src="https://picsum.photos/id/211/410/400"/></div>
+                        <div class="col-4"><img src="https://picsum.photos/id/250/410/400"/></div>
+                        <div class="col-4"><img src="https://picsum.photos/id/265/410/400"/></div>
+                      </div>
+                      <div class="row d-flex justify-content-center pt-4 pb-3">
+                        <div class="col-4"><img src="https://picsum.photos/id/312/410/400"/></div>
+                        <div class="col-4"><img src="https://picsum.photos/id/311/410/400"/></div>
+                        <div class="col-4"><img src="https://picsum.photos/id/152/410/400"/></div>
+                      </div>
+
+
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <div class= "container">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-6">
+                        <div class="card" style="width: max-content">
+                          <div class="card-header d-flex justify-content-between">
+                            <h5>Vitamin Sea</h5>
+                            <p>1/22</p>
+                          </div>
+                          <div class="card-body">
+                            <img src="https://picsum.photos/id/179/500/500">
+                          <p class="card-title font-style"><h6>122 likes</h6></p>
+                          <p class="card-text">A little vitamin [sea] to heal the soul</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-6 pt-4">
+                        <div class="card" style="width: max-content">
+                          <div class="card-header d-flex justify-content-between">
+                            <h5>Meadows</h5>
+                            <p>3/08</p>
+                          </div>
+                          <div class="card-body">
+                            <img src="https://picsum.photos/id/93/500/500">
+                          <p class="card-title font-style"><h6>63 likes</h6></p>
+                          <p class="card-text">Nature never goes out of style</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-6 pt-4">
+                        <div class="card" style="width: max-content">
+                          <div class="card-header d-flex justify-content-between">
+                            <h5>The road less traveled</h5>
+                            <p>4/02</p>
+                          </div>
+                          <div class="card-body">
+                            <img src="https://picsum.photos/id/191/500/500">
+                          <p class="card-title font-style"><h6>132 likes</h6></p>
+                          <p class="card-text">Follow the path</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-6 pt-4">
+                        <div class="card" style="width: max-content">
+                          <div class="card-header d-flex justify-content-between">
+                            <h5>Sea ya</h5>
+                            <p>4/20</p>
+                          </div>
+                          <div class="card-body">
+                            <img src="https://picsum.photos/id/211/500/500">
+                          <p class="card-title font-style"><h6>63 likes</h6></p>
+                          <p class="card-text">Knot for sale</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-6 pt-4">
+                        <div class="card" style="width: max-content">
+                          <div class="card-header d-flex justify-content-between">
+                            <h5>One click away</h5>
+                            <p>05/16</p>
+                          </div>
+                          <div class="card-body">
+                            <img src="https://picsum.photos/id/250/500/500">
+                          <p class="card-title font-style"><h6>75 likes</h6></p>
+                          <p class="card-text">Collect moments not things</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-6 pt-4">
+                        <div class="card" style="width: max-content">
+                          <div class="card-header d-flex justify-content-between">
+                            <h5>Golden hour</h5>
+                            <p>6/08</p>
+                          </div>
+                          <div class="card-body">
+                            <img src="https://picsum.photos/id/265/500/500">
+                          <p class="card-title font-style"><h6>143 likes</h6></p>
+                          <p class="card-text">Adventures in a new city</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-6 pt-4">
+                        <div class="card" style="width: max-content">
+                          <div class="card-header d-flex justify-content-between">
+                            <h5>Oh honey</h5>
+                            <p>06/26</p>
+                          </div>
+                          <div class="card-body">
+                            <img src="https://picsum.photos/id/312/500/500">
+                          <p class="card-title font-style"><h6>85 likes</h6></p>
+                          <p class="card-text">Live cozy</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-6 pt-4">
+                        <div class="card" style="width: max-content">
+                          <div class="card-header d-flex justify-content-between">
+                            <h5>The simple life</h5>
+                            <p>7/22</p>
+                          </div>
+                          <div class="card-body">
+                            <img src="https://picsum.photos/id/311/500/500">
+                          <p class="card-title font-style"><h6>53 likes</h6></p>
+                          <p class="card-text">Life recently</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-6 pt-4 pb-2">
+                        <div class="card" style="width: max-content">
+                          <div class="card-header d-flex justify-content-between">
+                            <h5>Live life in full bloom</h5>
+                            <p>11/12</p>
+                          </div>
+                          <div class="card-body">
+                            <img src="https://picsum.photos/id/152/500/500">
+                          <p class="card-title font-style"><h6>26 likes</h6></p>
+                          <p class="card-text">Petal power</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+           
+
+
+        </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
